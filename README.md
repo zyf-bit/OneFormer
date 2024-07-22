@@ -1,6 +1,14 @@
 # OneFormer Colab Deepdive
 原项目地址https://praeclarumjj3.github.io/oneformer/
 
+# 文件介绍
+
+demo_TJ.py用于跑同济4d数据集中的图片,demo_vod.py用于跑vod数据集中的图片。
+
+本次实验用的是OneFormer项目对于cityscapes数据集的预训练模型。目标与id的对应关系如下https://github.com/mcordts/cityscapesScripts/blob/master/cityscapesscripts/helpers/labels.py
+
+根据感兴趣的目标不同，须在demo_TJ或demo_vod中将其中的id更改分类。
+
 ### oneformer环境配置
 
 ubuntu-20.04
