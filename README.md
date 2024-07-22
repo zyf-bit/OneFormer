@@ -21,9 +21,13 @@ cuda11.3
 git clone https://github.com/SHI-Labs/OneFormer-Colab.git
 
 cd OneFormer-Colab/
+
+//之后手动安装requirements.txt中的依赖
 ```
 ```
 2. Install Dependencies.
+
+git clone 'https://github.com/facebookresearch/detectron2'
 
 pip3 install -r requirements.txt
 
