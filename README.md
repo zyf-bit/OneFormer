@@ -8,13 +8,14 @@ ubuntu-20.04
 python3.8.19
 
 cuda11.3
-
-#@title 1. Clone OneFormer Repo
+```
+1. Clone OneFormer Repo
 git clone https://github.com/SHI-Labs/OneFormer-Colab.git
 
 cd OneFormer-Colab/
-
-#@title 2. Install Dependencies.
+```
+```
+2. Install Dependencies.
 
 pip3 install -r requirements.txt
 
@@ -28,7 +29,7 @@ pip3 install git+https://github.com/cocodataset/panopticapi.git
 
 pip3 install git+https://github.com/mcordts/cityscapesScripts.git
 
-
 pip3 install ipython-autotime
 
 pip3 install imutils
+```
